@@ -11,22 +11,13 @@
     grid-template-columns: 2fr 10fr;
 }
 
-.header {
-grid-area: h;
-background-color: olive;
-}
-.header img { width: 30px;
-}
-
-.nav {
-    background-color: tomato;
-grid-area: n;
-}
-
-.content{
-    background-color: yellow;
+.app_wrapper-content {
+    background-color: rgb(105, 166, 202);
     grid-area: c;
 }
-.content img{
-    width: 100%;
+
+
+.photo_space{
+height: 200px;
+width: 100%;
 }
